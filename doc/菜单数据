@@ -1,0 +1,1041 @@
+[
+    {
+        "key": "1000247",
+        "menuName": "远传水表数据分析",
+        "menuCode": "WMA",
+        "menuType": "1",
+        "parentMenu": "root",
+        "pageUrl": "/wma",
+        "iconUrl": null,
+        "remark": null,
+        "subMenuList": [
+            {
+                "key": "1000257",
+                "menuName": "数据报表查询",
+                "menuCode": "WMA.DATAREPORT",
+                "menuType": "1",
+                "parentMenu": "WMA",
+                "pageUrl": "/wma/dataReport/waterMeterStatistics",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000258",
+                        "menuName": "水表统计报表",
+                        "menuCode": "WMA.DATAREPORT.WATERMETERSTATISTICS",
+                        "menuType": "1",
+                        "parentMenu": "WMA.DATAREPORT",
+                        "pageUrl": "/wma/dataReport/waterMeterStatistics",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000260",
+                        "menuName": "采集数据报表",
+                        "menuCode": "WMA.DATAREPORT.DATAACQUISITION",
+                        "menuType": "1",
+                        "parentMenu": "WMA.DATAREPORT",
+                        "pageUrl": "/wma/dataReport/dataAcquisition",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000262",
+                "menuName": "水表采集率分析",
+                "menuCode": "WMA.WATERACQUISITIONRATE",
+                "menuType": "1",
+                "parentMenu": "WMA",
+                "pageUrl": "/wma/waterAcquisitionRate",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": null
+            },
+            {
+                "key": "1000308",
+                "menuName": "首页",
+                "menuCode": "WMA.WMAINDEX",
+                "menuType": "1",
+                "parentMenu": "WMA",
+                "pageUrl": "/wma/Index",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": null
+            },
+            {
+                "key": "1000309",
+                "menuName": "数据采集分析",
+                "menuCode": "WMA.DATACOLLECTED",
+                "menuType": "1",
+                "parentMenu": "WMA",
+                "pageUrl": "/wma/dataCollected",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": null
+            }
+        ]
+    },
+    {
+        "key": "1000251",
+        "menuName": "权限管理",
+        "menuCode": "AUTH",
+        "menuType": "1",
+        "parentMenu": "root",
+        "pageUrl": "/auth/role/update",
+        "iconUrl": null,
+        "remark": null,
+        "subMenuList": [
+            {
+                "key": "1000245",
+                "menuName": "角色管理",
+                "menuCode": "AUTH.ROLE",
+                "menuType": "1",
+                "parentMenu": "AUTH",
+                "pageUrl": "/auth/role/list",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000254",
+                        "menuName": "角色新增修改",
+                        "menuCode": "AUTH.ROLE.AUTHROLEUPDATE",
+                        "menuType": "1",
+                        "parentMenu": "AUTH.ROLE",
+                        "pageUrl": "/auth/role/update",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000255",
+                        "menuName": "角色列表",
+                        "menuCode": "AUTH.ROLE.AUTHROLELIST",
+                        "menuType": "1",
+                        "parentMenu": "AUTH.ROLE",
+                        "pageUrl": "/auth/role/list",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000246",
+                "menuName": "用户管理",
+                "menuCode": "AUTH.USER",
+                "menuType": "1",
+                "parentMenu": "AUTH",
+                "pageUrl": "/auth/user/list",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000252",
+                        "menuName": "用户列表",
+                        "menuCode": "AUTH.USER.AUTHUSERLIST",
+                        "menuType": "1",
+                        "parentMenu": "AUTH.USER",
+                        "pageUrl": "/auth/user/list",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000253",
+                        "menuName": "用户新增修改",
+                        "menuCode": "AUTH.USER.AUTHUSERUPDATE",
+                        "menuType": "1",
+                        "parentMenu": "AUTH.USER",
+                        "pageUrl": "/auth/user/update",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000343",
+                        "menuName": "修改密码",
+                        "menuCode": "AUTH.USER.CHANGEPASSWORD",
+                        "menuType": "2",
+                        "parentMenu": "AUTH.USER",
+                        "pageUrl": "/user/changePassword",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000248",
+                "menuName": "菜单管理",
+                "menuCode": "AUTH.MENU",
+                "menuType": "1",
+                "parentMenu": "AUTH",
+                "pageUrl": "/auth/menu/list",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000249",
+                        "menuName": "菜单表格切换",
+                        "menuCode": "AUTH.MENU.AUTHMENUTREE",
+                        "menuType": "1",
+                        "parentMenu": "AUTH.MENU",
+                        "pageUrl": "/auth/menu/tree",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000250",
+                        "menuName": "菜单新增修改",
+                        "menuCode": "AUTH.MENU.AUTHMENULISTUPDATE",
+                        "menuType": "1",
+                        "parentMenu": "AUTH.MENU",
+                        "pageUrl": "/auth/menu/list_update",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000256",
+                        "menuName": "菜单列表",
+                        "menuCode": "AUTH.MENU.AUTHMENULIST",
+                        "menuType": "1",
+                        "parentMenu": "AUTH.MENU",
+                        "pageUrl": "/auth/menu/authMenuList",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "1000263",
+        "menuName": "用户大数据",
+        "menuCode": "USERCENTER",
+        "menuType": "1",
+        "parentMenu": "root",
+        "pageUrl": "/",
+        "iconUrl": null,
+        "remark": null,
+        "subMenuList": [
+            {
+                "key": "1000261",
+                "menuName": "首页",
+                "menuCode": "USERCENTER.MAP",
+                "menuType": "1",
+                "parentMenu": "USERCENTER",
+                "pageUrl": "/",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": null
+            },
+            {
+                "key": "1000264",
+                "menuName": "用户数据分析",
+                "menuCode": "USERCENTER.USERREPORT",
+                "menuType": "1",
+                "parentMenu": "USERCENTER",
+                "pageUrl": "/report",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000269",
+                        "menuName": "居民用户用水列表",
+                        "menuCode": "USERCENTER.USERREPORT.REPORT2",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.USERREPORT",
+                        "pageUrl": "/report2",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000270",
+                        "menuName": "正常欠费用户列表",
+                        "menuCode": "USERCENTER.USERREPORT.USERREPORT1",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.USERREPORT",
+                        "pageUrl": "/report1",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000271",
+                        "menuName": "欠费用户列表",
+                        "menuCode": "USERCENTER.USERREPORT.USERREPORT0",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.USERREPORT",
+                        "pageUrl": "/report",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000273",
+                        "menuName": "非居民缴费用户列表",
+                        "menuCode": "USERCENTER.USERREPORT.REPORT3",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.USERREPORT",
+                        "pageUrl": "/report3",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000274",
+                        "menuName": "特种用户列表",
+                        "menuCode": "USERCENTER.USERREPORT.USERREPORT4",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.USERREPORT",
+                        "pageUrl": "/report4",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000266",
+                "menuName": "用户用水监控",
+                "menuCode": "USERCENTER.WATERMONITOR",
+                "menuType": "1",
+                "parentMenu": "USERCENTER",
+                "pageUrl": "/userCenter/waterMonitor",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000259",
+                        "menuName": "监控详情-天数据",
+                        "menuCode": "USERCENTER.WATERMONITOR.WATERMONITORDETAIL",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.WATERMONITOR",
+                        "pageUrl": "/userCenter/waterMonitorDetail",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000265",
+                        "menuName": "监控详情-小时数据",
+                        "menuCode": "USERCENTER.WATERMONITOR.WATERMONITORHOUR",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.WATERMONITOR",
+                        "pageUrl": "/userCenter/waterMonitorHour",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000267",
+                        "menuName": "单户监控",
+                        "menuCode": "USERCENTER.WATERMONITOR.WATERMONITORSINGLE",
+                        "menuType": "1",
+                        "parentMenu": "USERCENTER.WATERMONITOR",
+                        "pageUrl": "/userCenter/waterMonitorSingle",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000268",
+                "menuName": "用户行为分析",
+                "menuCode": "USERCENTER.LIST",
+                "menuType": "1",
+                "parentMenu": "USERCENTER",
+                "pageUrl": "/list",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000310",
+                        "menuName": "水费同比环比",
+                        "menuCode": "USERCENTER.REPORTDETAIL",
+                        "menuType": "2",
+                        "parentMenu": "USERCENTER.LIST",
+                        "pageUrl": "/userCenter/reportDetail/p1",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000311",
+                                "menuName": "Page 01",
+                                "menuCode": "USERCENTER.REPORTDETAIL_P1",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.REPORTDETAIL",
+                                "pageUrl": "/reportDetail/p1",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000312",
+                                "menuName": "Page 02",
+                                "menuCode": "USERCENTER.REPORTDETAIL_P2",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.REPORTDETAIL",
+                                "pageUrl": "/reportDetail/p2",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000313",
+                                "menuName": "Page 03",
+                                "menuCode": "USERCENTER.REPORTDETAIL_P3",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.REPORTDETAIL",
+                                "pageUrl": "/reportDetail/p3",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000314",
+                        "menuName": "用户行为图谱",
+                        "menuCode": "USERCENTER.USERDETAIL",
+                        "menuType": "2",
+                        "parentMenu": "USERCENTER.LIST",
+                        "pageUrl": "/userCenter/detail",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000315",
+                                "menuName": "Page 01",
+                                "menuCode": "USERCENTER.USERDETAIL.DETAIL_P1_1",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.USERDETAIL",
+                                "pageUrl": "/index",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000316",
+                                "menuName": "Page 02",
+                                "menuCode": "USERCENTER.USERDETAIL.DETAIL_P2_1",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.USERDETAIL",
+                                "pageUrl": "p2_1",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000317",
+                                "menuName": "Page 03",
+                                "menuCode": "USERCENTER.USERDETAIL.DETAIL_P3_1",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.USERDETAIL",
+                                "pageUrl": "page3",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000318",
+                                "menuName": "Page 04",
+                                "menuCode": "USERCENTER.USERDETAIL.DETAIL_P4_1",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.USERDETAIL",
+                                "pageUrl": "page4",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000319",
+                                "menuName": "Page 05",
+                                "menuCode": "USERCENTER.USERDETAIL.DETAIL_P5_1",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.USERDETAIL",
+                                "pageUrl": "paga5",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000320",
+                                "menuName": "Page 06",
+                                "menuCode": "USERCENTER.USERDETAIL.DETAIL_P6_1",
+                                "menuType": "2",
+                                "parentMenu": "USERCENTER.USERDETAIL",
+                                "pageUrl": "page6",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000322",
+                        "menuName": "用户违约记录",
+                        "menuCode": "USERCENTER.DEFAULTDETAIL",
+                        "menuType": "2",
+                        "parentMenu": "USERCENTER.LIST",
+                        "pageUrl": "defaultDetail",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "1000272",
+        "menuName": "营业大数据",
+        "menuCode": "CHARGE",
+        "menuType": "1",
+        "parentMenu": "root",
+        "pageUrl": "/charge",
+        "iconUrl": null,
+        "remark": null,
+        "subMenuList": [
+            {
+                "key": "1000275",
+                "menuName": "欠费用户分析",
+                "menuCode": "CHARGE.ARREAR",
+                "menuType": "1",
+                "parentMenu": "CHARGE",
+                "pageUrl": "/charge/arrear/index",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000277",
+                        "menuName": "小区欠费列表",
+                        "menuCode": "CHARGE.ARREAR.ARREARRESIDENTIALQUARTERS",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/charge/arrear/arrearResidentialquarters",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000278",
+                        "menuName": "水价类型欠费列表",
+                        "menuCode": "CHARGE.ARREAR.ARREARWATERTYPE",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/charge/arrear/arrearWaterType",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000279",
+                        "menuName": "用水性质欠费人数",
+                        "menuCode": "CHARGE.ARREAR.ARREARWATERPROPERTIES",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/charge/arrear/arrearWaterProperties",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000280",
+                        "menuName": "连续欠费人数",
+                        "menuCode": "CHARGE.ARREAR.ARREARCONTINUOUS",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/charge/arrear/arrearContinuous",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000283",
+                        "menuName": "欠费同比环比",
+                        "menuCode": "CHARGE.ARREAR.ARREARQOQLIST",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/charge/arrear/QoqList",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000323",
+                        "menuName": "用户档案列表",
+                        "menuCode": "CHARGE.ARREAR.ARREARUSERINFO",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/arrear/arrearUserInfo",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000324",
+                                "menuName": "档案详情",
+                                "menuCode": "CHARGE.ARREAR.ARREARUSERLISTDETAILS",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.ARREAR.ARREARUSERINFO",
+                                "pageUrl": "/arrearUserListDetails",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000325",
+                        "menuName": "欠费曲线跳转",
+                        "menuCode": "CHARGE.ARREAR.ARREARDIAGRAM",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/arrearDiagram",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000336",
+                        "menuName": "欠费同比曲线跳转",
+                        "menuCode": "CHARGE.ARREAR.ARREARQOQDIAGRAM",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.ARREAR",
+                        "pageUrl": "/arrear/arrearQoqDiagram",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000276",
+                "menuName": "营业首页",
+                "menuCode": "CHARGE.CHARGEINDEX",
+                "menuType": "1",
+                "parentMenu": "CHARGE",
+                "pageUrl": "/charge/Index",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": null
+            },
+            {
+                "key": "1000282",
+                "menuName": "用户用水分析",
+                "menuCode": "CHARGE.WATER",
+                "menuType": "1",
+                "parentMenu": "CHARGE",
+                "pageUrl": "/charge/water/index",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000281",
+                        "menuName": "不同地域用水量",
+                        "menuCode": "CHARGE.WATER.ANALYSISUSEWATER",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/charge/water/useWater",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000284",
+                        "menuName": "不同用水性质用水量",
+                        "menuCode": "CHARGE.WATER.ELECTYPEUSEWATERLIST",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/charge/water/elecTypeList",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000285",
+                        "menuName": "不同水价类型用水量列表",
+                        "menuCode": "CHARGE.WATER.WATERPRICETYPE",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/charge/water/waterPriceType",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000286",
+                        "menuName": "小区用水高频波动分析",
+                        "menuCode": "CHARGE.WATER.WATERHIGHFREQUENCYFLUCTUATION",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/charge/water/waterHighFrequencyFluctuation",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000365",
+                                "menuName": "小区用水高频波动详情页",
+                                "menuCode": "CHARGE.WATER.WATERUNDERPAIDCUSTOMERS",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.WATER.WATERHIGHFREQUENCYFLUCTUATION",
+                                "pageUrl": "/water/waterUnderpaidCustomers/:seachItems",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000287",
+                        "menuName": "用水同比",
+                        "menuCode": "CHARGE.WATER.WATERQOQLIST",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/charge/water/QoqList",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000290",
+                        "menuName": "日高峰用水分析",
+                        "menuCode": "CHARGE.WATER.WATERDAILYPEAKLIST",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/charge/water/waterDailyPeakList",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000332",
+                                "menuName": "日高峰曲线跳转 Page01",
+                                "menuCode": "CHARGE.WATER.WATERDAILYPEAK.WATERDAILYPEAKPAGE1",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.WATER.WATERDAILYPEAKLIST",
+                                "pageUrl": "water/waterDailyPeakPage1",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000333",
+                                "menuName": "日高峰曲线跳转 Page 02",
+                                "menuCode": "CHARGE.WATER.WATERDAILYPEAK.WATERDAILYPEAKPAGE2",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.WATER.WATERDAILYPEAKLIST",
+                                "pageUrl": "water/waterDailyPeakPage2",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000292",
+                        "menuName": "夜间最小用水分析",
+                        "menuCode": "CHARGE.WATER.WATERMININIGHTLIST",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/charge/water/waterMiniNightList",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000334",
+                                "menuName": "夜间最小用水曲线 Page 01",
+                                "menuCode": "CHARGE.WATER.WATERMININIGHT.WATERMININIGHTPAGE1",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.WATER.WATERMININIGHTLIST",
+                                "pageUrl": "water/waterMiniNightPage1",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": [
+                                    {
+                                        "key": "1000335",
+                                        "menuName": "夜间最小用水曲线 Page 02",
+                                        "menuCode": "CHARGE.WATER.WATERMININIGHT.WATERMININIGHTPAGE2",
+                                        "menuType": "2",
+                                        "parentMenu": "CHARGE.WATER.WATERMININIGHT.WATERMININIGHTPAGE1",
+                                        "pageUrl": "/water/waterMiniNightPage2",
+                                        "iconUrl": null,
+                                        "remark": null,
+                                        "subMenuList": null
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000326",
+                        "menuName": "用户用水量",
+                        "menuCode": "CHARGE.WATER.WATERUSERRANKING",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/water/waterUserRanking",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000327",
+                                "menuName": "用户用水波动分析",
+                                "menuCode": "CHARGE.WATER.ANALYSISUNDERPAIDCUSTOMERS",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.WATER.WATERUSERRANKING",
+                                "pageUrl": "/water/analysisUnderpaidCustomers",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            },
+                            {
+                                "key": "1000328",
+                                "menuName": "天日历统计",
+                                "menuCode": "CHARGE.WATER.WATERCALENDARDAY",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.WATER.WATERUSERRANKING",
+                                "pageUrl": "/water/waterCalendarDay",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": [
+                                    {
+                                        "key": "1000329",
+                                        "menuName": "小时统计",
+                                        "menuCode": "CHARGE.WATER.WATERDAYSTATISTICS",
+                                        "menuType": "2",
+                                        "parentMenu": "CHARGE.WATER.WATERCALENDARDAY",
+                                        "pageUrl": "/water/waterDayStatistics",
+                                        "iconUrl": null,
+                                        "remark": null,
+                                        "subMenuList": null
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "1000369",
+                                "menuName": "用户用水量跳转曲线",
+                                "menuCode": "CHARGE.WATER.WATERUSERCURVEJUMP",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.WATER.WATERUSERRANKING",
+                                "pageUrl": "/water/waterUserCurveJump",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000330",
+                        "menuName": "用水曲线跳转",
+                        "menuCode": "CHARGE.WATER.WATERCURVEJUMP",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/waterCurveJump",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000331",
+                        "menuName": "同比曲线跳转",
+                        "menuCode": "CHARGE.WATER.WATERQOQDIAGRAM",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.WATER",
+                        "pageUrl": "/water/waterQoqDiagram",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000291",
+                "menuName": "来电分析",
+                "menuCode": "CHARGE.CALL",
+                "menuType": "1",
+                "parentMenu": "CHARGE",
+                "pageUrl": "/charge/call/index",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000295",
+                        "menuName": "客户来电分析",
+                        "menuCode": "CHARGE.CALL.CALLANALYSIS",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.CALL",
+                        "pageUrl": "/charge/call/Analysis",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000297",
+                        "menuName": "列表详情",
+                        "menuCode": "CHARGE.CALL.CALLLISTDETAILS",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.CALL",
+                        "pageUrl": "/charge/call/callListDetails",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000298",
+                        "menuName": "分项表格统计",
+                        "menuCode": "CHARGE.CALL.CALLSTATISTICSITEM",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.CALL",
+                        "pageUrl": "/charge/call/callStatisticsItem",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000342",
+                        "menuName": "突出问题变化曲线",
+                        "menuCode": "CHARGE.CALL.CALLPROMINENTPROBLEM",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.CALL",
+                        "pageUrl": "/call/callProminentProblem",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            },
+            {
+                "key": "1000293",
+                "menuName": "收益分析",
+                "menuCode": "CHARGE.INCOME",
+                "menuType": "1",
+                "parentMenu": "CHARGE",
+                "pageUrl": "/charge/income/index",
+                "iconUrl": null,
+                "remark": null,
+                "subMenuList": [
+                    {
+                        "key": "1000288",
+                        "menuName": "不同用户类型收益排行",
+                        "menuCode": "CHARGE.INCOME.INCOMEUSERTYPE",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.INCOME",
+                        "pageUrl": "/charge/income/incomeUserType",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000339",
+                                "menuName": "不用用户类型用户排行",
+                                "menuCode": "CHARGE.INCOME.INCOMEUSERTYPE2",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.INCOME.INCOMEUSERTYPE",
+                                "pageUrl": "/income/incomeUserType2",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000289",
+                        "menuName": "不同水价类型收益",
+                        "menuCode": "CHARGE.INCOME.INCOMEWATERTYPE",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.INCOME",
+                        "pageUrl": "/charge/income/incomeWaterType",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000338",
+                                "menuName": "水价类型用户排行",
+                                "menuCode": "CHARGE.INCOME.INCOMEWATERTYPE2",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.INCOME.INCOMEWATERTYPE",
+                                "pageUrl": "/income/incomeWaterType2",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000294",
+                        "menuName": "收益同比环比",
+                        "menuCode": "CHARGE.INCOME.RATIO",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.INCOME",
+                        "pageUrl": "/charge/income/Ratio",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000296",
+                        "menuName": "小区收益统计报表",
+                        "menuCode": "CHARGE.INCOME.INCOMERESIDENTIALUSER",
+                        "menuType": "1",
+                        "parentMenu": "CHARGE.INCOME",
+                        "pageUrl": "/charge/income/ResidentialUser",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": [
+                            {
+                                "key": "1000337",
+                                "menuName": "小区收益用户排行",
+                                "menuCode": "CHARGE.INCOME.INCOMERESIDENTIALUSER2",
+                                "menuType": "2",
+                                "parentMenu": "CHARGE.INCOME.INCOMERESIDENTIALUSER",
+                                "pageUrl": "income/ResidentialUser2",
+                                "iconUrl": null,
+                                "remark": null,
+                                "subMenuList": null
+                            }
+                        ]
+                    },
+                    {
+                        "key": "1000340",
+                        "menuName": "收益曲线跳转",
+                        "menuCode": "CHARGE.INCOME.INCOMERESIDENTIALGRAPH",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.INCOME",
+                        "pageUrl": "income/ResidentialGraph",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000341",
+                        "menuName": "收益同比曲线跳转",
+                        "menuCode": "CHARGE.INCOME.INCOMEQOQDIAGRAM",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.INCOME",
+                        "pageUrl": "/income/incomeQoqDiagram",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    },
+                    {
+                        "key": "1000370",
+                        "menuName": "收益次级曲线跳转",
+                        "menuCode": "CHARGE.INCOME.INCOMEUSERLISTDETAILS",
+                        "menuType": "2",
+                        "parentMenu": "CHARGE.INCOME",
+                        "pageUrl": "/income/incomeUserListDetails",
+                        "iconUrl": null,
+                        "remark": null,
+                        "subMenuList": null
+                    }
+                ]
+            }
+        ]
+    }
+]

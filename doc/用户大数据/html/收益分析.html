@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>收益分析</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../css/assembly.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-index.css">
+</head>
+<body>
+<div class="wap-wrap">
+  <!--顶部-->
+  <div class="top">
+    <div class="logo"><img alt="" src="../img/logo.png" /></div>
+    <div class="title"><img src="../img/title.png" /></div>
+    <a class="btn-top btn-top-l btn-active" href="#">用户大数据</a>
+    <a class="btn-top btn-top-r" href="#">营业大数据</a>
+    <div class="admin-box">
+      <a href="#"><img src="../img/icon-admin.png" /> <span>admin</span></a>
+    </div>
+  </div>
+  <!--顶部//-->
+  <div class="content-box">
+    <div class="pull-left data-left">
+      <div class="data-wrap sytj">
+        <!--四个装饰角-->
+        <div class="top-horn-l"></div>
+        <div class="top-horn-r"></div>
+        <div class="bottom-horn-l"></div>
+        <div class="bottom-horn-r"></div>
+        <!--四个装饰角//-->
+        <div class="title">小区收益统计</div>
+        <ul class="chart-sytj">
+          <li><img src="../img/chart12.png" /></li>
+          <li><img src="../img/chart12.png" /></li>
+          <li><img src="../img/chart12.png" /></li>
+          <li><img src="../img/chart12.png" /></li>
+        </ul>
+      </div>
+      
+      <div class="data-wrap syzg">
+        <!--四个装饰角-->
+        <div class="top-horn-l"></div>
+        <div class="top-horn-r"></div>
+        <div class="bottom-horn-l"></div>
+        <div class="bottom-horn-r"></div>
+        <!--四个装饰角//-->
+        <div class="title">各水价类型用水量
+          <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+            <script type="text/javascript" src="../js/vue.js"></script>
+            <script>
+                var app = new Vue({
+                el:"#app",
+                data:{
+                show:false
+                },
+                methods:{
+                showCont:function(){
+                this.show = !this.show;
+                }
+                }
+                })
+            </script>
+            <a class="more">更多</a>
+        </div>
+        <div class="chart-box"><img src="../img/chart12.png" /></div>
+      </div>
+      
+      <div class="data-wrap sy-chart">
+          <!--四个装饰角-->
+          <div class="top-horn-l"></div>
+          <div class="top-horn-r"></div>
+          <div class="bottom-horn-l"></div>
+          <div class="bottom-horn-r"></div>
+          <!--四个装饰角//-->
+          <div class="title">各水价类型用水量
+            
+              <a class="more">更多</a>
+          </div>
+          <div class="chart-box"><img src="../img/chart12.png" /></div>
+        </div>
+      
+    </div>
+    <div class="pull-left data-middle">
+        <div class="data-wrap map-box all">
+            <!--四个装饰角-->
+            <div class="top-horn-l"></div>
+            <div class="top-horn-r"></div>
+            <div class="bottom-horn-l"></div>
+            <div class="bottom-horn-r"></div>
+            <!--四个装饰角//-->
+            <!--右上角按钮-->
+            <a href="#" class="btn-back"><span>返回上一级</span></a>
+            <!--右上角按钮//-->
+            <!--右下角加号-->
+            <a href="#" class="btn-add"></a>
+            <!--右下角加号//-->
+            <div class="instructions">
+              <span>高</span>
+              <div class="line"></div>
+              <span>低</span>
+              
+            </div>
+          </div>
+    </div>
+    <div class="pull-right data-left">
+      <div class="data-wrap sytj">
+          <!--四个装饰角-->
+          <div class="top-horn-l"></div>
+          <div class="top-horn-r"></div>
+          <div class="bottom-horn-l"></div>
+          <div class="bottom-horn-r"></div>
+          <!--四个装饰角//-->
+          <div class="title">用水地区欠费排名<a class="more">更多</a></div>
+          <div class="cont">
+          <table class="table table-border">
+              <tbody>
+                <tr>
+                  <td scope="row"><img src="../img/number1.png" /></td>
+                  <td>宏伟区</td>
+                  <td>成旺花园</td>
+                  <td class="text-success" align="right">-¥23230</td>
+                </tr>
+                <tr>
+                  <td scope="row"><img src="../img/number2.png" /></td>
+                  <td>宏伟区</td>
+                  <td>成旺花园</td>
+                  <td class="text-success" align="right">-¥23230</td>
+                </tr>
+                <tr>
+                  <td scope="row"><img src="../img/number3.png" /></td>
+                  <td>宏伟区</td>
+                  <td>成旺花园</td>
+                  <td class="text-success" align="right">-¥23230</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+          
+          <div class="data-wrap syzb">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">不同用水性质收益占比
+                <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                  <script type="text/javascript" src="../js/vue.js"></script>
+                  <script>
+                      var app = new Vue({
+                      el:"#app",
+                      data:{
+                      show:false
+                      },
+                      methods:{
+                      showCont:function(){
+                      this.show = !this.show;
+                      }
+                      }
+                      })
+                  </script>
+              </div>
+              <ul class="list-syzb">
+                <li><img src="../img/chart13.png" /></li>
+                <li><img src="../img/chart14.png" /></li>
+                <li><img src="../img/chart15.png" /></li>
+              </ul>
+            </div>
+            
+          <div class="data-wrap syzb">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">不同收费方式收益占比
+                  <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                  
+              </div>
+              <ul class="list-syzb">
+                <li><img src="../img/chart13.png" /></li>
+                <li><img src="../img/chart14.png" /></li>
+                <li><img src="../img/chart15.png" /></li>
+              </ul>
+            </div>
+
+            <div class="data-wrap syzb">
+                <!--四个装饰角-->
+                <div class="top-horn-l"></div>
+                <div class="top-horn-r"></div>
+                <div class="bottom-horn-l"></div>
+                <div class="bottom-horn-r"></div>
+                <!--四个装饰角//-->
+                <div class="title">不同收费方式收益占比
+                    <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                    
+                </div>
+                <div class="chart-box"><img src="../img/chart16.png" /></div>
+              </div>
+    </div>
+  </div>
+  </div>
+  <div id="menushow">
+    <a class="btn-export" @click="showCont"></a>
+    <div class="menu-wrap"  v-show="show" style="display: none">
+    <ul class="left-menu">
+      <li><a href="#"><i><img src="../img/icon_home.png"></i><span class="text">首页</span></a></li>
+      <li><a href="#"><i><img src="../img/icon_qfyhfx.png"></i><span class="text">欠费用户分析</span></a>
+       <div class="second-menu-wrap">
+         <ul class="second-menu">
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+           <li><a><span class="icon-arrow"></span>用水性质欠费人数</a></li>
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+         </ul>
+      </div>
+      </li>
+      <li><a href="#"><i><img src="../img/icon_yhysfx.png"></i><span class="text">用户用水分析</span></a></li>
+      <li><a href="#"><i><img src="../img/icon_syfx.png"></i><span class="text">收益分析</span></a></li>
+      <li class="active"><a href="#"><i><img src="../img/icon_khldfx.png"></i><span class="text">客户来电分析</span></a></li>
+    </ul>
+    </div>
+  </div>
+  <script>
+      var menushow = new Vue({
+      el:"#menushow",
+      data:{
+      show:false
+      },
+      methods:{
+      showCont:function(){
+      this.show = !this.show;
+      }
+      }
+      })
+  </script>
+</body>
+</html>

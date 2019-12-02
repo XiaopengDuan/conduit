@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>欠费用户分析</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../css/assembly.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-index.css">
+</head>
+<body>
+<div class="wap-wrap">
+  <!--顶部-->
+  <div class="top">
+    <div class="logo"><img alt="" src="../img/logo.png" /></div>
+    <div class="title"><img src="../img/title.png" /></div>
+    <a class="btn-top btn-top-l btn-active" href="#">用户大数据</a>
+    <a class="btn-top btn-top-r" href="#">营业大数据</a>
+    <div class="admin-box">
+      <a href="#"><img src="../img/icon-admin.png" /> <span>admin</span></a>
+    </div>
+  </div>
+  <!--顶部//-->
+  <div class="content-box">
+    <div class="pull-left data-left">
+      <div class="data-wrap question-table">
+        <!--四个装饰角-->
+        <div class="top-horn-l"></div>
+        <div class="top-horn-r"></div>
+        <div class="bottom-horn-l"></div>
+        <div class="bottom-horn-r"></div>
+        <!--四个装饰角//-->
+        <div class="title">
+          <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu"><li class="active" ><a>宏伟区</a></li> <li><a>宏伟区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+          <a class="more">更多</a>
+        </div>
+        <div class="scroll-box">
+            <table class="table table-border">
+                <thead>
+                  <tr>
+                    <th>小区名称</th>
+                    <th>用户数</th>
+                    <th>欠费用户数</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row" align="left">成旺花园</th>
+                    <td align="center">190</td>
+                    <td align="center" class="text-success">180</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" align="left">长征路小区</th>
+                    <td align="center">221</td>
+                    <td align="center" class="text-success">190</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" align="left">成旺花园</th>
+                    <td align="center">190</td>
+                    <td align="center" class="text-success">180</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" align="left">长征路小区</th>
+                    <td align="center">221</td>
+                    <td align="center" class="text-success">190</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" align="left">成旺花园</th>
+                    <td align="center">190</td>
+                    <td align="center" class="text-success">180</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" align="left">长征路小区</th>
+                    <td align="center">221</td>
+                    <td align="center" class="text-success">190</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" align="left" class="text-danger">合计</th>
+                    <td align="center" class="text-danger">12992</td>
+                    <td align="center" class="text-danger">022</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+      
+      <div class="data-wrap water-consumption">
+        <!--四个装饰角-->
+        <div class="top-horn-l"></div>
+        <div class="top-horn-r"></div>
+        <div class="bottom-horn-l"></div>
+        <div class="bottom-horn-r"></div>
+        <!--四个装饰角//-->
+        <div class="title">各水价类型用水量
+          <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+            <script type="text/javascript" src="../js/vue.js"></script>
+            <script>
+                var app = new Vue({
+                el:"#app",
+                data:{
+                show:false
+                },
+                methods:{
+                showCont:function(){
+                this.show = !this.show;
+                }
+                }
+                })
+            </script>
+            <a class="more">更多</a>
+        </div>
+        <div class="chart-box"><img src="../img/chart12.png" /></div>
+      </div>
+      
+      
+    </div>
+    <div class="pull-left data-middle">
+        <div class="data-wrap map-box">
+            <!--四个装饰角-->
+            <div class="top-horn-l"></div>
+            <div class="top-horn-r"></div>
+            <div class="bottom-horn-l"></div>
+            <div class="bottom-horn-r"></div>
+            <!--四个装饰角//-->
+            <!--右上角按钮-->
+            <a href="#" class="btn-back"><span>返回上一级</span></a>
+            <!--右上角按钮//-->
+            <!--右下角加号-->
+            <a href="#" class="btn-add"></a>
+            <!--右下角加号//-->
+            <div class="instructions">
+              <span>高</span>
+              <div class="line"></div>
+              <span>低</span>
+              
+            </div>
+          </div>
+      
+          <div class="data-wrap question-user">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">小区用户欠费人数变化
+                <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                  <script type="text/javascript" src="../js/vue.js"></script>
+                  <script>
+                      var app = new Vue({
+                      el:"#app",
+                      data:{
+                      show:false
+                      },
+                      methods:{
+                      showCont:function(){
+                      this.show = !this.show;
+                      }
+                      }
+                      })
+                  </script>
+                  <a class="more">更多</a>
+              </div>
+              <div class="chart-box"><img src="../img/chart07.png" /></div>
+            </div>
+    </div>
+    <div class="pull-right data-left">
+        <div class="data-wrap question-phone">
+            <!--四个装饰角-->
+            <div class="top-horn-l"></div>
+            <div class="top-horn-r"></div>
+            <div class="bottom-horn-l"></div>
+            <div class="bottom-horn-r"></div>
+            <!--四个装饰角//-->
+            <div class="title">小区欠费人数
+                <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                <a class="more">更多</a>
+            </div>
+            <div class="chart-box"><img src="../img/chart08.png" /></div>
+          </div>
+          
+          <div class="data-wrap question-proportion">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">用水性质欠费人数
+                <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                  <script type="text/javascript" src="../js/vue.js"></script>
+                  <script>
+                      var app = new Vue({
+                      el:"#app",
+                      data:{
+                      show:false
+                      },
+                      methods:{
+                      showCont:function(){
+                      this.show = !this.show;
+                      }
+                      }
+                      })
+                  </script>
+                  <a class="more">更多</a>
+              </div>
+              <div class="chart-box"><img src="../img/chart09.png" /></div>
+            </div>
+            
+          <div class="data-wrap question-handle">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">连续欠费人数
+                  <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                  <a class="more">更多</a>
+              </div>
+              <div class="chart-box"><img src="../img/chart10.png" /></div>
+            </div>
+    </div>
+  </div>
+  </div>
+  <div id="menushow">
+    <a class="btn-export" @click="showCont"></a>
+    <div class="menu-wrap"  v-show="show" style="display: none">
+    <ul class="left-menu">
+      <li><a href="#"><i><img src="../img/icon_home.png"></i><span class="text">首页</span></a></li>
+      <li><a href="#"><i><img src="../img/icon_qfyhfx.png"></i><span class="text">欠费用户分析</span></a>
+       <div class="second-menu-wrap">
+         <ul class="second-menu">
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+           <li><a><span class="icon-arrow"></span>用水性质欠费人数</a></li>
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+           <li><a><span class="icon-arrow"></span>小区欠费列表</a></li>
+         </ul>
+      </div>
+      </li>
+      <li><a href="#"><i><img src="../img/icon_yhysfx.png"></i><span class="text">用户用水分析</span></a></li>
+      <li><a href="#"><i><img src="../img/icon_syfx.png"></i><span class="text">收益分析</span></a></li>
+      <li class="active"><a href="#"><i><img src="../img/icon_khldfx.png"></i><span class="text">客户来电分析</span></a></li>
+    </ul>
+    </div>
+  </div>
+  <script>
+      var menushow = new Vue({
+      el:"#menushow",
+      data:{
+      show:false
+      },
+      methods:{
+      showCont:function(){
+      this.show = !this.show;
+      }
+      }
+      })
+  </script>
+</body>
+</html>

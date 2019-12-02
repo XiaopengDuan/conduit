@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>营业大数据</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../css/assembly.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-index.css">
+</head>
+<body class="business-data">
+<div class="wap-wrap">
+  <!--顶部-->
+  <div class="top">
+    <div class="logo"><img alt="" src="../img/logo.png" /></div>
+    <div class="title"><img src="../img/title.png" /></div>
+    <a class="btn-top btn-top-l btn-active" href="#">用户大数据</a>
+    <a class="btn-top btn-top-r" href="#">营业大数据</a>
+    <div class="admin-box">
+      <a href="#"><img src="../img/icon-admin.png" /> <span>admin</span></a>
+    </div>
+  </div>
+  <!--顶部//-->
+  <div class="content-box">
+    <div class="pull-left data-left">
+      <div class="business-menu">
+        <ul class="list-business">
+          <li><a href="#"><span class="number">01</span><span class="name">欠费用户分析</span></a></li>
+          <li><a href="#"><span class="number">02</span><span class="name">用户用水分析</span></a></li>
+          <li><a href="#"><span class="number">03</span><span class="name">收益分析</span></a></li>
+          <li><a href="#"><span class="number">04</span><span class="name">客户来电分析</span></a></li>
+        </ul>
+      </div>
+      
+      <div class="data-wrap business-chart">
+        <!--四个装饰角-->
+        <div class="top-horn-l"></div>
+        <div class="top-horn-r"></div>
+        <div class="bottom-horn-l"></div>
+        <div class="bottom-horn-r"></div>
+        <!--四个装饰角//-->
+        <div class="title">用水性质欠费人数
+          <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+            <script type="text/javascript" src="../js/vue.js"></script>
+            <script>
+                var app = new Vue({
+                el:"#app",
+                data:{
+                show:false
+                },
+                methods:{
+                showCont:function(){
+                this.show = !this.show;
+                }
+                }
+                })
+            </script>
+            <a class="more">更多</a>
+        </div>
+        <div class="chart-box"><img src="../img/chart12.png" /></div>
+      </div>
+      
+      <div class="data-wrap business-chart">
+        <!--四个装饰角-->
+        <div class="top-horn-l"></div>
+        <div class="top-horn-r"></div>
+        <div class="bottom-horn-l"></div>
+        <div class="bottom-horn-r"></div>
+        <!--四个装饰角//-->
+        <div class="title">欠费最多的地域前5排行
+            <a class="more">更多</a>
+        </div>
+        <div class="cont scroll-box">
+          <ul class="list-progress">
+            <li><span class="number">1</span><span class="name">世纪阳光</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                      <span class="sr-only">40%</span>
+                    </div>
+                  </div>
+               <span class="money">¥29389</span>
+            </li>
+            <li><span class="number">2</span><span class="name">龙鼎泰和园</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                      <span class="sr-only">40%</span>
+                    </div>
+                  </div>
+               <span class="money">¥29389</span>
+            </li>
+            <li><span class="number">3</span><span class="name">天瑞·西苑绿舟</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                      <span class="sr-only">40%</span>
+                    </div>
+                  </div>
+               <span class="money">¥29389</span>
+            </li>
+            <li><span class="number">4</span><span class="name">世纪阳光</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                      <span class="sr-only">40%</span>
+                    </div>
+                  </div>
+               <span class="money">¥29389</span>
+            </li>
+            <li><span class="number">5</span><span class="name">世纪阳光</span>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                      <span class="sr-only">40%</span>
+                    </div>
+                  </div>
+               <span class="money">¥29389</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      
+    </div>
+    <div class="pull-left data-middle">
+        <div class="businessdata-box">
+          <!--右侧按钮-->
+          <div class="btn-map-box">
+            <a href="#" class="btn-yhys active">用户用水</a><a href="#" class="btn-yhqf">用户欠费</a><a href="#" class="btn-yhjf">用户收益</a><a href="#" class="btn-yhld">用户来电</a>
+          </div>
+          <!--右侧按钮//-->
+          <!--椭圆-->
+          <div class="ellipse-red" style="top: 3.93rem; left:-.1rem;"><span class="icon"></span></div>
+          <div class="ellipse-blue" style="top: 1.9rem; left:.3rem;"><span class="icon"></span></div>
+          <div class="ellipse-red" style="top: 1.9rem; right:.5rem;"><span class="icon"></span></div>
+          <div class="ellipse-blue" style="top: 4.3rem; right:.8rem;"><span class="icon"></span></div>
+          <div class="ellipse-red" style="bottom: -1rem; right:3rem;"><span class="icon"></span></div>
+          <!--椭圆//-->
+          </div>
+      
+          <div class="data-wrap business-chart">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">当前收益最高的前3地域
+                  <a class="more">更多</a>
+              </div>
+              <div class="cont">
+                  <ul class="list-syzb">
+                      <li><img src="../img/chart18.png"></li>
+                      <li><img src="../img/chart18.png"></li>
+                      <li><img src="../img/chart18.png"></li>
+                    </ul>
+              </div>
+            </div>
+    </div>
+    <div class="pull-right data-left">
+        <div class="data-wrap business-menu">
+            <!--四个装饰角-->
+            <div class="top-horn-l"></div>
+            <div class="top-horn-r"></div>
+            <div class="bottom-horn-l"></div>
+            <div class="bottom-horn-r"></div>
+            <!--四个装饰角//-->
+            <div class="title">小区来电问题最多
+                <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                <a class="more">更多</a>
+            </div>
+            <div class="chart-box"><img src="../img/chart08.png" /></div>
+          </div>
+          
+          <div class="data-wrap business-chart">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">用水性质收益
+                <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                  <script>
+                      var app = new Vue({
+                      el:"#app",
+                      data:{
+                      show:false
+                      },
+                      methods:{
+                      showCont:function(){
+                      this.show = !this.show;
+                      }
+                      }
+                      })
+                  </script>
+                  <a class="more">更多</a>
+              </div>
+              <div class="chart-box"><img src="../img/chart12.png"></div>
+            </div>
+            
+          <div class="data-wrap business-chart">
+              <!--四个装饰角-->
+              <div class="top-horn-l"></div>
+              <div class="top-horn-r"></div>
+              <div class="bottom-horn-l"></div>
+              <div class="bottom-horn-r"></div>
+              <!--四个装饰角//-->
+              <div class="title">用水性质用水量
+                  <div id="app" class="input-group-btn"><button type="button" class="btn choose-time">盛景豪亭 <span class="caret"></span></button> <ul class="dropdown-menu" style="display: none;"><li><a>一区</a></li> <li><a>二区</a></li> <li><a>三区</a></li> <li><a>四区</a></li></ul></div><!-- /btn-group -->
+                  <a class="more">更多</a>
+              </div>
+              <div class="chart-box"><img src="../img/chart12.png"></div>
+            </div>
+    </div>
+  </div>
+  </div>
+  
+</body>
+</html>

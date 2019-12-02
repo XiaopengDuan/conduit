@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>用户档案分析首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../css/assembly.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-index.css">
+</head>
+<body>
+<div class="wap-wrap">
+  <!--顶部-->
+  <div class="top">
+    <div class="logo"><img alt="" src="../img/logo.png" /></div>
+    <div class="title"><img src="../img/title.png" /></div>
+    <a class="btn-top btn-top-l btn-active" href="#">用户大数据</a>
+    <a class="btn-top btn-top-r" href="#">营业大数据</a>
+    <div class="admin-box">
+      <a href="#"><img src="../img/icon-admin.png" /> <span>admin</span></a>
+    </div>
+  </div>
+  <!--顶部//-->
+  <!--左边菜单-->
+  <div class="left">
+    <ul class="left-menu">
+      <li class="active"><a href="#"><i><img src="../img/icon_home.png" /></i><span class="text">首页</span></a></li>
+      <li><a href="#"><i><img src="../img/icon_khbbcx.png" /></i><span class="text">客户档案</span></a></li>
+      <li><a href="#"><i><img src="../img/icon_yhda.png" /></i><span class="text">客户报表查询</span></a></li>
+    </ul>
+  </div>
+  <!--左边菜单//-->
+  <!--右边内容-->
+  <div class="right">
+    <div class="right-content">
+      <!--四个装饰角-->
+      <div class="top-horn-l"></div>
+      <div class="top-horn-r"></div>
+      <div class="bottom-horn-l"></div>
+      <div class="bottom-horn-r"></div>
+      <!--四个装饰角//-->
+      <div class="map-box">
+        <div class="map"></div>
+        <!--<img width="100%" height="100%" src="../img/map.jpg" />-->
+        <!--搜索栏-->
+        <div class="sertch-wrap">
+          <a class="sertch"></a>
+          <div class="sertch-form input-group">
+            <div class="sertch-form-bg"></div>
+            <div class="input-group-btn" id="app">
+              <button type="button" @click="showCont" class="btn" >宏伟区 <span class="caret"></span></button>
+              <ul class="dropdown-menu" v-show="show">
+                <li><a>一区</a></li>
+                <li><a>二区</a></li>
+                <li><a>三区</a></li>
+                <li><a>四区</a></li>
+              </ul>
+            </div><!-- /btn-group -->
+            <script type="text/javascript" src="../js/vue.js" ></script>
+            <script>
+                var app = new Vue({
+                el:"#app",
+                data:{
+                show:false
+                },
+                methods:{
+                showCont:function(){
+                this.show = !this.show;
+                }
+                }
+                })
+            </script>
+            <label>户号</label><input type="text" class="form-control" aria-label="Text input with dropdown button"><label>户名</label><input type="text" class="form-control" aria-label="Text input with dropdown button">
+          </div>
+        </div>
+        <!--搜索栏//-->
+        <!--数据栏-->
+        <dl class="data-box">
+          <dt>居民用水户数</dt>
+          <dd><span class="number01">3</span><span class="number02">6</span><span class="number03">0</span></dd>
+          <dt>非居民用水户数</dt>
+          <dd><span class="number01">1</span><span class="number02">8</span><span class="number03">0</span></dd>
+          <dt>特种用水户数</dt>
+          <dd><span class="number01">2</span><span class="number02">8</span><span class="number03">0</span></dd>
+        </dl>
+        <!--数据栏//-->
+        <!--小灯泡-->
+        <!--小灯泡//-->
+        <span class="light-yellow" style="left: 3.85rem; top:6rem;"></span>
+        <span class="light-yellow" style="left: 6rem; top:3.85rem;"></span>
+        <span class="light-yellow" style="left: 6.85rem; top:4rem;"></span>
+        <!--右侧按钮-->
+        <div class="btn-map-box">
+          <a href="#" class="btn-yhys active">用户用水</a><a href="#" class="btn-yhqf">用户欠费</a><a href="#" class="btn-yhjf">用户缴费</a>
+        </div>
+        <!--右侧按钮//-->
+      </div>
+    </div>
+  </div>
+  <!--右边内容//-->
+</div>
+</body>
+</html>

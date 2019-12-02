@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>用户档案分析-档案详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="../css/assembly.css">
+    <link rel="stylesheet" type="text/css" href="../css/style-index.css">
+</head>
+<body>
+<div class="wap-wrap">
+  <!--顶部-->
+  <div class="top">
+    <div class="logo"><img alt="" src="../img/logo.png" /></div>
+    <div class="title"><img src="../img/title.png" /></div>
+    <a class="btn-top btn-top-l btn-active" href="#">用户大数据</a>
+    <a class="btn-top btn-top-r" href="#">营业大数据</a>
+    <div class="admin-box">
+      <a href="#"><img src="../img/icon-admin.png" /> <span>admin</span></a>
+    </div>
+  </div>
+  <!--顶部//-->
+  <!--左边菜单-->
+  <div class="left">
+    <ul class="left-menu">
+      <li><a href="#"><i><img src="../img/icon_home.png" /></i><span class="text">首页</span></a></li>
+      <li class="active"><a href="#"><i><img src="../img/icon_khbbcx.png" /></i><span class="text">客户档案</span></a></li>
+      <li><a href="#"><i><img src="../img/icon_yhda.png" /></i><span class="text">客户报表查询</span></a></li>
+    </ul>
+  </div>
+  <!--左边菜单//-->
+  <!--右边内容-->
+  <div class="right">
+    <div class="right-content">
+      <!--四个装饰角-->
+      <div class="top-horn-l"></div>
+      <div class="top-horn-r"></div>
+      <div class="bottom-horn-l"></div>
+      <div class="bottom-horn-r"></div>
+      <!--四个装饰角//-->
+      <!--右上角按钮-->
+      <a href="#" class="btn-back"><span>返回上一级</span></a>
+      <!--右上角按钮//-->
+      <div class="list-ys-box list-yhmes-box">
+        <div class="up-box">
+          <div class="title">用户基本信息<a href="#">[查看更多]</a></div>
+          <ul class="list-yhmes">
+            <li>
+              <div class="mes-box">
+                <div class="name">户名</div>
+                <div class="mes">23820390293</div>
+              </div>
+            </li>
+            <li>
+              <div class="mes-box">
+                <div class="name">户名</div>
+                <div class="mes">admin</div>
+              </div>
+            </li>
+            <li>
+              <div class="mes-box">
+                <div class="name">地址</div>
+                <div class="mes">23820390293</div>
+              </div>
+            </li>
+            <li>
+              <div class="mes-box">
+                <div class="name">状态</div>
+                <div class="mes">在缴</div>
+              </div>
+            </li>
+            <li>
+              <div class="mes-box">
+                <div class="name">用户类型</div>
+                <div class="mes">居民用户</div>
+              </div>
+            </li>
+            <li>
+              <div class="mes-box">
+                <div class="name">收费方式</div>
+                <div class="mes">坐收</div>
+              </div>
+            </li>
+            <li>
+              <div class="mes-box">
+                <div class="name">联系手机</div>
+                <div class="mes">23820390293</div>
+              </div>
+            </li>
+            <li>
+              <div class="mes-box">
+                <div class="name">余额</div>
+                <div class="mes">¥3892.3</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="report-form">
+          <div class="report-form-left">
+            <div class="title">用户用水变化曲线</div>
+            <div id="container" class="echarts-box"></div>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+            <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=xfhhaTThl11qYVrqLZii6w8qE5ggnhrY&__ec_v__=20190126"></script>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+            <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+            <script type="text/javascript">
+     var dom = document.getElementById("container");
+     var myChart = echarts.init(dom);
+     var app = {};
+     option = null;
+     option = {
+         xAxis: {
+             type: 'category',
+             boundaryGap: false,
+             data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+         },
+         yAxis: {
+             type: 'value'
+         },
+         series: [{
+             data: [820, 932, 901, 934, 1290, 1330, 1320],
+             type: 'line',
+             areaStyle: {}
+         }]
+     };
+     ;
+     if (option && typeof option === "object") {
+         myChart.setOption(option, true);
+     }
+            </script>
+          </div>
+          <div class="report-form-right">
+            <div class="title">用户缴费变化曲线</div>
+            <div id="container2" class="echarts-box"></div>
+            <script type="text/javascript">
+     var dom = document.getElementById("container2");
+     var myChart = echarts.init(dom);
+     var app = {};
+     option = null;
+     option = {
+         xAxis: {
+             type: 'category',
+             boundaryGap: false,
+             data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+         },
+         yAxis: {
+             type: 'value'
+         },
+         series: [{
+             data: [820, 932, 901, 934, 1290, 1330, 1320],
+             type: 'line',
+             areaStyle: {}
+         }]
+     };
+     ;
+     if (option && typeof option === "object") {
+         myChart.setOption(option, true);
+     }
+            </script>
+          </div>
+        </div>
+      </div>
+      <!--右侧page-->
+      <ul class="list-page">
+        <li><a href="#">Page 01</a></li>
+        <li class="active"><a href="#">Page 02</a></li>
+        <li><a href="#">Page 03</a></li>
+        <li><a href="#">Page 04</a></li>
+        <li><a href="#">Page 05</a></li>
+        <li class="end"><a href="#">Page 06</a></li>
+        <a href="#" class="down"></a>
+      </ul>
+      <!--右侧page//-->
+      <!--右侧切换按钮-->
+      <a class="btn-switch" name="切换" href="#"></a>
+      <!--右侧切换按钮//-->
+    </div>
+  </div>
+  <!--右边内容//-->
+</div>
+</body>
+</html>
