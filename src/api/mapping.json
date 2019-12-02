@@ -1,0 +1,1563 @@
+{
+  "/ba/customerCall/V1/getCommunityCallTopTen": {
+    "name": "c399",
+    "describe": "首页小区来电问题排行",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/user/importExcelTable": {
+    "name": "cSCc",
+    "describe": "导入用户Excel",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCommunityReactionProp": {
+    "name": "kW88",
+    "describe": "首页不同小区用户反应占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCommunityChronicProblemsChangeCurve": {
+    "name": "oPDd",
+    "describe": "首页小区长期出现问题变化曲线",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCustomerCallMap": {
+    "name": "zBOo",
+    "describe": "首页获取客户来电辽化地图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCommunityReactionCount": {
+    "name": "tHSs",
+    "describe": "首页小区用户反应问题数量",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCommunityReactionTop": {
+    "name": "sENn",
+    "describe": "首页来电反应的问题排行",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCommunityChronicProblemsTopTen": {
+    "name": "yQDd",
+    "describe": "首页小区长期反应的问题数量前10",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCommunityProblemsProcessingState": {
+    "name": "qYSs",
+    "describe": "首页小区问题处理情况",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCustomerCallAnalysisList": {
+    "name": "oAWw",
+    "describe": "客户来电分析列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCustomerCallAllSelect": {
+    "name": "d2Aa",
+    "describe": "获取客户来电分析下拉框",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getComplaintProblemSummaryList": {
+    "name": "hWHh",
+    "describe": "分享表格统计-投诉问题汇总列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getComplaintProblemStateList": {
+    "name": "fORr",
+    "describe": "分享表格统计-投诉问题处理状态列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getNearlyYearProtrudeProblemList": {
+    "name": "s1Uu",
+    "describe": "客户来电分析-近几年突出问题",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getComplaintProblemYtyQoq": {
+    "name": "tWKk",
+    "describe": "分享表格统计-四类来电同比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCustomerCallYtyQoqChangeCurve": {
+    "name": "bRJj",
+    "describe": "来电同比曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getBusinessMapCustomerCallInfo": {
+    "name": "mNTt",
+    "describe": "营业大首页地图欠费用户面板信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/customerCall/V1/getCustomerCallAreaMap": {
+    "name": "nQAa",
+    "describe": "首页获取客户来电辽化区域街道地图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getUserInfo": {
+    "name": "lC77",
+    "describe": "通过多个户号获取客户档案详情信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getUserList": {
+    "name": "xC00",
+    "describe": "获取客户档案列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getUserCountComByMonth": {
+    "name": "oBOo",
+    "describe": "通过月份区间查询欠费人数前10小区",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getUserCountByMonth": {
+    "name": "jHOo",
+    "describe": "通过月份区间查询不同类型用户欠费人数",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getUserCountByCommunityYear": {
+    "name": "jKTt",
+    "describe": "通过小区查询最近12个月欠费人数",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContinuousUserCountFunnel": {
+    "name": "nMMm",
+    "describe": "连续欠费人数漏斗图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getCommunityUserCountChangeCurve": {
+    "name": "i4Gg",
+    "describe": "各小区欠费人数变化曲线",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getRegionArrearCountList": {
+    "name": "zW77",
+    "describe": "小区欠费列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContentPriceArrearCountList": {
+    "name": "dKHh",
+    "describe": "水价类型欠费列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getElecTypeArrearCountList": {
+    "name": "mEIi",
+    "describe": "用水性质欠费人数列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getRegionArrearCountYtyQoqList": {
+    "name": "rGUu",
+    "describe": "小区欠费同比环比列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContentPriceArrearCountYtyQoqList": {
+    "name": "wFGg",
+    "describe": "水价类型欠费同比环比列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getElecTypeArrearCountYtyQoqList": {
+    "name": "dUAa",
+    "describe": "用水类别欠费同比环比列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContinuousUserCountList": {
+    "name": "yA33",
+    "describe": "连续欠费人数列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContentPriceArrearMoneys": {
+    "name": "dB66",
+    "describe": "各水价类型欠费额",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCommunityList": {
+    "name": "yGKk",
+    "describe": "首页获取欠费小区列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCommunityCountList": {
+    "name": "p300",
+    "describe": "首页小区欠费人数、欠费额排行",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCommunityCountRadar": {
+    "name": "kWQq",
+    "describe": "大首页小区欠费人数雷达图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCommunityMap": {
+    "name": "tH88",
+    "describe": "首页上月欠费地图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContentPriceAllArrearMoney": {
+    "name": "iU44",
+    "describe": "首页各水价类型欠水费",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getElecTypeArrearCount": {
+    "name": "wXJj",
+    "describe": "首页用水性质欠费人数",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getCommunityArrearCountChangeCurve": {
+    "name": "lXZz",
+    "describe": "首页小区用户欠费人数变化",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCommunityTopTen": {
+    "name": "r277",
+    "describe": "首页获取前十小区欠费人数",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getNearlyFiveMonthsCountsFunnel": {
+    "name": "mO88",
+    "describe": "首页获取连续欠五月人数漏斗图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCountYtyQoqChangeCurve": {
+    "name": "jBVv",
+    "describe": "欠费同比环比曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCountChangeCurve":{
+    "name": "r8Kk",
+    "describe": "欠费曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearUserUseWaterList": {
+    "name": "tHOo",
+    "describe": "欠费用户用水量列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearSelectValue": {
+    "name": "vYWw",
+    "describe": "欠费下拉框值",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getBusinessMapArrearUserInfo": {
+    "name": "kCWw",
+    "describe": "营业大首页地图欠费用户面板信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContentPriceAllTotalPower": {
+    "name": "xH11",
+    "describe": "首页各水价类型用水量",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getUserArrearInfoByUserNo": {
+    "name": "qXIi",
+    "describe": "根据户号获取用户每月欠费信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getContinuousUserList": {
+    "name": "qDGg",
+    "describe": "连续欠费用户列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/arrearUser/V1/getArrearCommunityAreaMap": {
+    "name": "uAOo",
+    "describe": "首页上月欠费区域街道地图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/login/toLogin": {
+    "name": "yZIi",
+    "describe": "用户登录获取ticket",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/changePassWord": {
+    "name": "kWZz",
+    "describe": "用户更改密码",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/addOrModifyUser": {
+    "name": "aB33",
+    "describe": "新增或修改用户",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/deleteUser": {
+    "name": "iQYy",
+    "describe": "删除用户",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/fuzzyQueryUser": {
+    "name": "eUFf",
+    "describe": "模糊查询用户（走hive）",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/queryUser": {
+    "name": "l355",
+    "describe": "非模糊查询用户（走hbase client）",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/role/addOrModifyRole": {
+    "name": "bK11",
+    "describe": "添加或修改角色",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/role/deleteRole": {
+    "name": "hJRr",
+    "describe": "删除角色",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/role/fuzzyQueryRole": {
+    "name": "wSYy",
+    "describe": "模糊查询角色 (走hive）",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "role/queryRole": {
+    "name": "vASs",
+    "describe": "非模糊查询角色（走hbase client）",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/menu/addOrModifyMenu": {
+    "name": "fE44",
+    "describe": "新增或修改菜单",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/menu/deleteMenu": {
+    "name": "cZDd",
+    "describe": "删除菜单",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/menu/fuzzyQueryMenu": {
+    "name": "tBHh",
+    "describe": "模糊查询菜单（走hive）",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/menu/queryMenu": {
+    "name": "hQQq",
+    "describe": "非模糊查询菜单（走hbase client）",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/menu/menuTree": {
+    "name": "qPCc",
+    "describe": "查询根菜单以及其下所有子菜单",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/sendVerificationCode": {
+    "name": "aEPp",
+    "describe": "发送验证码",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/login/getLoginfo": {
+    "name": "qRDd",
+    "describe": "从缓存获得登录数据",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/login/Logout": {
+    "name": "sEUu",
+    "describe": "用户登出",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/initPassword": {
+    "name": "h199",
+    "describe": "找回密码",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/ba/incomeAnalysis/V1/get11IndexIncomeTop2Statistics": {
+    "name": "lVXx",
+    "describe": "首页分析-展示上月收益最高的两个区的收益以及该区同比和环比，并展示该区1年内的收益同比柱状图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get12IndexArrearsTop5Statistics": {
+    "name": "yMQq",
+    "describe": "首页分析-展示欠费最多的5个小区列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get13IndexIncomeByRegionStatistics": {
+    "name": "hYHh",
+    "describe": "首页分析-地图展示用不同的颜色展示不同区域的收益情况",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get14IndexIncomeTop10Statistics": {
+    "name": "bABb",
+    "describe": "首页分析-展示前10个收益最高小区雷达图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get15IndexIncomeByElecTypeStatistics": {
+    "name": "sZGg",
+    "describe": "首页分析-不同用水性质收益占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get16IndexIncomeByChargeModeStatistics": {
+    "name": "pS44",
+    "describe": "首页分析-不同收费方式收益占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get17IndexIncomeTop10IncomeAndPowerStatistics": {
+    "name": "lW99",
+    "describe": "首页分析-展示收益最高的收益和水量的10小区柱状图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get18IndexIncomeTop5YearStatistics": {
+    "name": "rHDd",
+    "describe": "首页分析-展示当月收益最高的5个小区一年来收益波动曲线",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get21IncomeByRegion": {
+    "name": "w8Pp",
+    "describe": "首页点击小区弹出页-收益按地区排行Top10",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get22DifferentUseWaterNatureProportion": {
+    "name": "lUZz",
+    "describe": "首页点击小区弹出页-不同用水性质收益占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get23DifferentWaterPriceTypeProportion": {
+    "name": "fH99",
+    "describe": "首页点击小区弹出页-不同水价类型收益",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get24DifferentCharging": {
+    "name": "rIZz",
+    "describe": "首页点击小区弹出页-不同收费方式收益占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get25IncomeWaterConsumptionArrearsCurve": {
+    "name": "dDPp",
+    "describe": "首页点击小区弹出页-水司收益和用水量，欠费变化曲线",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get26IncomeWaterConsumptionArrearsComparisonChart": {
+    "name": "k9Yy",
+    "describe": "首页点击小区弹出页-水司收益和用水量，欠费对比图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get27IncomeYearOnYear": {
+    "name": "uOVv",
+    "describe": "首页点击小区弹出页-收益同比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get31IncomeByCommunity": {
+    "name": "vVWw",
+    "describe": "小区收益统计-收益按小区统计",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get32UserPayByCommunity": {
+    "name": "nSLl",
+    "describe": "小区收益统计-根据小区名称查询该小区下所有户号缴费详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get33CommunityDetailStatistics": {
+    "name": "hOTt",
+    "describe": "弹出详情页-小区列表、曲线图、饼图详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get34CommunityUserDetailStatistics": {
+    "name": "q2Tt",
+    "describe": "用户列表弹出详情页-小区列表、曲线图详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get41IncomeByUserType": {
+    "name": "qHOo",
+    "describe": "不同用户类型收益统计-收益按用户类型统计",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get42UserPayByUserType": {
+    "name": "bKJj",
+    "describe": "小区收益统计-根据用户类型查询该类型下所有户号缴费详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get43UserTypeDetailStatistics": {
+    "name": "qTIi",
+    "describe": "弹出详情页-用户类型列表、曲线图、饼图详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get44UserTypeUserDetailStatistics": {
+    "name": "oL22",
+    "describe": "用户列表弹出详情页-用户类型列表、曲线图详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get51IncomeByContentPriceCode": {
+    "name": "lGZz",
+    "describe": "不同价格类型收益-收益按水价类型统计",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get52UserPayByContentPriceCode": {
+    "name": "jWSs",
+    "describe": "不同价格类型收益-根据水价类型查询该类型下所有户号缴费详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get53PriceTypeDetailStatistics": {
+    "name": "zNXx",
+    "describe": "弹出详情页-价格类型列表、曲线图、饼图详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get54PriceTypeUserDetailStatistics": {
+    "name": "rEAa",
+    "describe": "用户列表弹出详情页-价格列表、曲线图详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get61ChargeAndShouldMoneyByCommunityStatistics": {
+    "name": "tNSs",
+    "describe": "实收和应收占比变化-按照小区同比和环比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get62ChargeAndShouldMoneyByWaterPriceStatistics": {
+    "name": "u4Cc",
+    "describe": "实收和应收占比变化-按照不同水价同比和环比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get63ChargeAndShouldMoneyByUserTypeStatistics": {
+    "name": "vD66",
+    "describe": "实收和应收占比变化-按照用水类型同比和环比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get01IndexIncomeTop3Statistics": {
+    "name": "hLHh",
+    "describe": "首页-当前收益最高的前3个地域仪表图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get02IndexIncomeTop6Statistics": {
+    "name": "aZNn",
+    "describe": "首页-用水性质收益",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get03IndexIncomeMapContentInfoStatistics": {
+    "name": "a366",
+    "describe": "首页-收益地图面板统计信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get04CommunityInfo": {
+    "name": "gXGg",
+    "describe": "获取小区信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get05ContentPriceInfo": {
+    "name": "nQPp",
+    "describe": "获取水价类型信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get06ElecTypeInfo": {
+    "name": "h7Dd",
+    "describe": "获取用水类型信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get66UserChargeAndShouldMoneyDetailStatistics": {
+    "name": "xEOo",
+    "describe": "用户列表弹出详情页-列表、曲线图详情",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/incomeAnalysis/V1/get13IndexIncomeAreaByRegionStatistics": {
+    "name": "oLPp",
+    "describe": "首页分析-地图展示用不同的颜色展示不同区域的收益情况-街道区域",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ua/user/V1/getUserCountByType": {
+    "name": "jQMm",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getCommunityAll": {
+    "name": "dEGg",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserNoAndNameByNoName": {
+    "name": "sZJj",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserPayInfoByUserNo": {
+    "name": "gDSs",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserArrearsInfoByUserNo": {
+    "name": "qWSs",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserUseWaterInfoByUserNo": {
+    "name": "mI11",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserAllInfoByUserNo": {
+    "name": "sVMm",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserInfoList": {
+    "name": "bUGg",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getQuerySelect": {
+    "name": "kEEe",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserProperty": {
+    "name": "kFMm",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterChangeCurve": {
+    "name": "tRWw",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserPayChangeCurve": {
+    "name": "bMTt",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserInfo": {
+    "name": "cKYy",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getReportQuerySelect": {
+    "name": "hWQq",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserArrearsReportInfoList": {
+    "name": "j1Yy",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getNonUserPayReportInfoList": {
+    "name": "iO88",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserNormalPayReportInfoList": {
+    "name": "oSBb",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getSpecialUserReportInfoList": {
+    "name": "cWIi",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterReportInfoList": {
+    "name": "tWJj",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterYtyBar": {
+    "name": "xIWw",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserMoneyYtyBar": {
+    "name": "jLTt",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterYtyInfo": {
+    "name": "i800",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserMoneyYtyInfo": {
+    "name": "iNLl",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterQopBar": {
+    "name": "nK66",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserMoneyQopBar": {
+    "name": "cHXx",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterQopInfo": {
+    "name": "eHOo",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserMoneyQopInfo": {
+    "name": "xFZz",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserPrePayCurve": {
+    "name": "qMEe",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserArrearsCallCount": {
+    "name": "uVBb",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getComTopFiveAndUserArreaCounts": {
+    "name": "fD77",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getCountsCommunityTopByElecTypeCode": {
+    "name": "oFIi",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserInfoListByUserNo": {
+    "name": "gZGg",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getRepairLeakConsultComplainInfoByUserNo": {
+    "name": "gEKk",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserArrearsChangeTable": {
+    "name": "yMGg",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterChangeTable": {
+    "name": "xEFf",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserPayTable": {
+    "name": "lRLl",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserYccdTable": {
+    "name": "g4Gg",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserBasicInfoByUserNo": {
+    "name": "vFRr",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getCallWindowInfoPage1": {
+    "name": "lFSs",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getWaterWindowInfoPage1": {
+    "name": "vXXx",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getMoneyWindowInfoPage1": {
+    "name": "dRPp",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getDefaultWindowInfoPage1": {
+    "name": "wGFf",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getMoneyProportionBar": {
+    "name": "jBPp",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getWaterProportionBar": {
+    "name": "jDGg",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getMoneyProportionInfo": {
+    "name": "lIUu",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getWaterProportionInfo": {
+    "name": "uM33",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserVatSetInfo": {
+    "name": "dTAa",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserChargeSetInfo": {
+    "name": "sKPp",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getDefaultInfoList": {
+    "name": "bSAa",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getMapInfo": {
+    "name": "jI11",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserNonArreaCountsAndComTopFive": {
+    "name": "xRZz",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserAllInfo": {
+    "name": "iZRr",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterRealTimeMonitorList": {
+    "name": "xXLl",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterRangeAndAverageCurvePage1": {
+    "name": "kK33",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterRangeAndAverageCurvePage2": {
+    "name": "e4Ff",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterRangeAndAverageCurvePage3": {
+    "name": "a8Ss",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterHourReport": {
+    "name": "fIZz",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterDayDateList": {
+    "name": "kSYy",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterHourDateList": {
+    "name": "pOFf",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ua/user/V1/getUserWaterRealTimeMonitorInfo": {
+    "name": "fPLl",
+    "describe": "undefined",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10000"
+  },
+  "/ba/usersOfWater/V1/getCommunitySelectInfo": {
+    "name": "aEZz",
+    "describe": "首页获取小区下拉框信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUseWaterRank": {
+    "name": "kD88",
+    "describe": "首页用水地区用水量排名",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getWaterPowerQoq": {
+    "name": "uB55",
+    "describe": "首页地区用水量环比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getWaterPowerAndWaterProportion": {
+    "name": "c9Ll",
+    "describe": "首页月用水吨数与用水占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getWaterMapInfo": {
+    "name": "pJLl",
+    "describe": "首页用户用水地图信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getWaterVolatilityUserCount": {
+    "name": "uNBb",
+    "describe": "首页用水量波动大用户数",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUseWaterNaturesQoq": {
+    "name": "dHWw",
+    "describe": "首页地区用水性质环比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getCommunityUseWaterRank": {
+    "name": "mAPp",
+    "describe": "大首页用水地区用水量排名",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getRegionUseWaterList": {
+    "name": "eNVv",
+    "describe": "不同地域用水量列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getContentPriceUseWaterList": {
+    "name": "fDFf",
+    "describe": "不同水价类型用水量列表信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getElecTypeUseWaterList": {
+    "name": "mIJj",
+    "describe": "不同用水类别用水量列表信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getContentPriceSelect": {
+    "name": "mOXx",
+    "describe": "获取水价类型下拉框信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getRegionUseWaterYtyQoqList": {
+    "name": "uWGg",
+    "describe": "小区用水同比环比列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getContentPriceUseWaterYtyQoqList": {
+    "name": "bYKk",
+    "describe": "水价类型用水同比环比列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getElecTypeUseWaterYtyQoqList": {
+    "name": "rJ77",
+    "describe": "用水类别用水同比环比列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUseWaterYtyQoqChangeCurve": {
+    "name": "xIQq",
+    "describe": "用水同比环比曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUserUseWaterList": {
+    "name": "vOEe",
+    "describe": "用户用水量列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getBusinessMapUsersOfWaterInfo": {
+    "name": "mGYy",
+    "describe": "营业大首页地图用户用水面板信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getBusinessMapInfo": {
+    "name": "cHZz",
+    "describe": "营业大首页地图信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getDayPeakWaterAnalysisList": {
+    "name": "jOFf",
+    "describe": "日高峰用水分析列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getDayPeakWaterAnalysisPage1": {
+    "name": "hIAa",
+    "describe": "日高峰用水分析Page1",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getDayPeakWaterAnalysisPage2": {
+    "name": "nCOo",
+    "describe": "日高峰用水分析Page2",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getNightMinWaterAnalysisList": {
+    "name": "iARr",
+    "describe": "夜间最小用水分析列表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getNightMinWaterAnalysisPage1": {
+    "name": "rQYy",
+    "describe": "夜间最小用水分析Page1",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getNightMinWaterAnalysisPage2": {
+    "name": "dBSs",
+    "describe": "夜间最小用水分析Page2",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUseWaterDayDataStatistical": {
+    "name": "iEOo",
+    "describe": "用户用水天数据统计",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getCommunityMonthPreDayPowerMoney": {
+    "name": "zD66",
+    "describe": "小区月每日用水量用水费",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getCommunityWaterHighFreqVolatiRank": {
+    "name": "iSZz",
+    "describe": "小区用水高频波动排行",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getBusinessGeoInfo": {
+    "name": "s4Mm",
+    "describe": "营业大首页geo建筑信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUseWaterChangeCurve": {
+    "name": "fL66",
+    "describe": "用水曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUseWaterVolatilityAnalysisByUserNo": {
+    "name": "mPSs",
+    "describe": "用户用水波动分析",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getUserUseWaterChangeCurve": {
+    "name": "xZZz",
+    "describe": "用户用水量曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getCommunityWaterVolatilityAnalysisByComCode": {
+    "name": "kGGg",
+    "describe": "小区用水波动分析",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getBusinessMapInfoImgUrl": {
+    "name": "vWJj",
+    "describe": "营业大首页地图信息-（包含面板图片地址）",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/ba/usersOfWater/V1/getWaterMapAreaInfo": {
+    "name": "rIYy",
+    "describe": "首页用户用水区域地图信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10001"
+  },
+  "/wma/water/V1/getAllWaterMeterInfo": {
+    "name": "aVTt",
+    "describe": "首页-获取昨日所有信息",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getCollectDataReportList": {
+    "name": "j9Ee",
+    "describe": "获取采集数据报表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getDataReportListSearch": {
+    "name": "jARr",
+    "describe": "获取数据报表查询",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getWaterMeterDataCollect": {
+    "name": "qGCc",
+    "describe": "首页-数据采集",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getWaterMeterDataCollectProp": {
+    "name": "fMSs",
+    "describe": "首页-数据采集以及占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getWaterMeterDataCount": {
+    "name": "vE44",
+    "describe": "专题--查询采集数据量统计",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getWaterMeterDataCountProp": {
+    "name": "b0Nn",
+    "describe": "首页-数据量占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getWaterMeterDataProp": {
+    "name": "t1Hh",
+    "describe": "首页-数据占比",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getWaterMeterDataRate": {
+    "name": "xVDd",
+    "describe": "专题--查询采集数据比率统计",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getWaterMeterNearly31DayInfo": {
+    "name": "o7Ll",
+    "describe": "首页-获取近三十一天的水表准确与采集率",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getCountDataByTimeLine": {
+    "name": "v9Zz",
+    "describe": "专题--线性查询采集数据量统计,返回时间轴数组",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getRateDataByTimeLine": {
+    "name": "kSOo",
+    "describe": "专题--线性查询采集数据比率统计,返回时间轴数组",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getCollectDataReportListExport": {
+    "name": "bJAa",
+    "describe": "导出全部采集数据报表",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/wma/water/V1/getDataReportListSearchExport": {
+    "name": "bFLl",
+    "describe": "导出全部数据报表查询",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/ba/incomeAnalysis/V1/get67UserChargeAndShouldMoneyYtyQoqChangeCurve": {
+    "name": "pEMm",
+    "describe": "实收应收同比环比曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.21/22/23:10004"
+  },
+  "/user/exportExcelTable": {
+    "name": "s0Bb",
+    "describe": "导出用户Excel",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/excelTableForUserImportDownload": {
+    "name": "z2Mm",
+    "describe": "导入模板下载",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/accountCheck": {
+    "name": "jJVv",
+    "describe": "账号重复验证",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/user/UserPutInUse": {
+    "name": "fHPp",
+    "describe": "启用用户",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  },
+  "/ba/arrearUser/V1/getContinuousUserCountChangeCurve": {
+    "name": "jJVv",
+    "describe": "连续欠费人数曲线图",
+    "origin": "https://39.152.209.97:440",
+    "localServiceGatewayIp": "192.168.10.23",
+    "actualIpPort": "192.168.10.23:443"
+  }
+}
